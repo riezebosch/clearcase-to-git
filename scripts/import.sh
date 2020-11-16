@@ -10,8 +10,8 @@ set -o nounset
 # Edit these parameters
 #refDate="01-JAN-2020.06:00:00"
 refDate=`date -Iseconds`
-viewTag="some_view"
-vobTag="vob_name"
+viewTag="riezebosch_dynamic"
+vobTag="CodeToCloud"
 vobDirs="*"
 
 mvfsKey="HKLM\\SYSTEM\\CurrentControlSet\\services\\Mvfs\\Parameters"
@@ -23,15 +23,7 @@ workingDir="$(pwd)"
 workingDirWin="$(pwd -W | perl -pe 's/\//\\\\/g')"
 
 cd "$viewDir"
-echo "Getting roots..."
-roots=()
 set +o nounset
-for root in $vobDirs; do
-    if [ -d "$root" ] && [ "$root" != "lost+found" ]; then
-        roots+=("$root")
-    fi
-done
-set -o nounset
 
 cd "$workingDir"
 if [ ! -d git-import ]; then
@@ -39,6 +31,7 @@ if [ ! -d git-import ]; then
 fi
 cd git-import
 
+rm -rf export
 if [ ! -d export ]; then
     mkdir export
 fi
@@ -49,15 +42,14 @@ cd "$viewDir"
 # one clearexport_ccase for each directory, do that 1) it doesn't crash (out of memory), 2) it is parallelized
 # only od folders we can actually see. it's just to optimize
 cc_export=0
-for root in "${roots[@]}"; do
-    real_root="$(basename "$root")"
-    if [ ! -f "$workingDir/git-import/export/$real_root.export" ]; then
-        echo "Exporting $real_root..."
-        clearexport_ccase -r -o "$workingDirWin\\git-import\\export\\$real_root.export" "$real_root" > "$workingDir/git-import/export/$real_root.export.log" &
-        cc_export=1
-        sleep 5 # give it a bit of time to start
-    fi
-done
+root=$viewDir
+real_root="$(basename "$root")"
+if [ ! -f "$workingDir/git-import/export/$real_root.export" ]; then
+	echo "Exporting $real_root..."
+	clearexport_ccase -r -o "$workingDirWin\\git-import\\export\\$real_root.export" "." > "$workingDir/git-import/export/$real_root.export.log" &
+	cc_export=1
+	sleep 5 # give it a bit of time to start
+fi
 
 cd "$workingDir/git-import/export"
 if [ $cc_export -eq 1 ]; then
