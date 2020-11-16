@@ -10,17 +10,12 @@ using System.Text.RegularExpressions;
 
 namespace GitImporter
 {
-    public class Cleartool : IDisposable
+    public class Cleartool
     {
-        private const string _cleartool = "cleartool_tty.exe";
+        private const string _cleartool = @"cleartool.exe";
 
         public static TraceSource Logger = Program.Logger;
 
-        private readonly Process _process;
-        private readonly Thread _outputThread;
-        private readonly Thread _errorThread;
-        private readonly StreamWriter _inputWriter;
-        private readonly ManualResetEventSlim _cleartoolAvailable = new ManualResetEventSlim();
         private readonly string _clearcaseRoot;
         private readonly LabelFilter _labelFilter;
 
@@ -37,82 +32,39 @@ namespace GitImporter
 
         public Cleartool(string clearcaseRoot, LabelFilter labelFilter)
         {
+            _clearcaseRoot = clearcaseRoot;
             _labelFilter = labelFilter;
 
-            var startInfo = new ProcessStartInfo(_cleartool)
-                            { UseShellExecute = false, RedirectStandardInput = true, RedirectStandardOutput = true, RedirectStandardError = true };
-            _process = new Process { StartInfo = startInfo };
-            _process.Start();
-            _inputWriter = new StreamWriter(_process.StandardInput.BaseStream, Encoding.Default) { AutoFlush = true };
-            _outputThread = new Thread(ReadOutput) { IsBackground = true };
-            _outputThread.Start();
-            _errorThread = new Thread(ReadError) { IsBackground = true };
-            _errorThread.Start();
-            _cleartoolAvailable.Wait();
-            _clearcaseRoot = clearcaseRoot;
-            ExecuteCommand("cd \"" + _clearcaseRoot + "\"");
-        }
-
-        void ReadOutput()
-        {
-            int c;
-            string currentString = "";
-            const string prompt = "cleartool> ";
-            int promptLength = prompt.Length;
-            int currentIndexInPrompt = 0;
-            while ((c = _process.StandardOutput.Read()) != -1)
-            {
-                switch ((char)c)
-                {
-                    case '\r':
-                    case '\n':
-                        if (!string.IsNullOrWhiteSpace(currentString))
-                            _currentOutput.Add(currentString);
-                        currentString = "";
-                        break;
-                    default:
-                        currentString += (char)c;
-                        if (prompt[currentIndexInPrompt] == (char)c)
-                        {
-                            currentIndexInPrompt++;
-                            if (currentIndexInPrompt == promptLength)
-                            {
-                                string last = currentString.Substring(0, currentString.Length - promptLength);
-                                if (last.Length > 0)
-                                    _currentOutput.Add(last);
-                                currentString = "";
-                                currentIndexInPrompt = 0;
-                                _cleartoolAvailable.Set();
-                            }
-                        }
-                        else
-                            // fortunately, there is only one 'c' in the prompt
-                            currentIndexInPrompt = (char)c == prompt[0] ? 1 : 0;
-                        break;
-                }
-            }
-        }
-
-        void ReadError()
-        {
-            string error;
-            while ((error = _process.StandardError.ReadLine()) != null)
-            {
-                _lastError = error;
-                Logger.TraceData(TraceEventType.Warning, (int)TraceId.Cleartool, error);
-            }
         }
 
         private List<string> ExecuteCommand(string cmd)
         {
+            var startInfo = new ProcessStartInfo(_cleartool, cmd)
+            {
+                UseShellExecute = false,
+                //RedirectStandardInput = true,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                WorkingDirectory = _clearcaseRoot,                
+            };
+
+            var process = new Process { StartInfo = startInfo };
+            process.EnableRaisingEvents = true;
+            process.ErrorDataReceived += (o, e) => _lastError = e.Data;
+            process.OutputDataReceived += (o, e) => { if (!string.IsNullOrWhiteSpace(e.Data)) _currentOutput.Add(e.Data); };
+
             for (int i = 0; i < _nbRetry; i++)
             {
                 Logger.TraceData(TraceEventType.Start | TraceEventType.Verbose, (int)TraceId.Cleartool, "Start executing cleartool command", cmd);
-                _cleartoolAvailable.Reset();
+
                 _lastError = null;
-                _currentOutput = new List<string>();
-                _inputWriter.WriteLine(cmd);
-                _cleartoolAvailable.Wait();
+                _currentOutput.Clear();
+
+                process.Start();
+                process.BeginOutputReadLine();
+                process.BeginErrorReadLine();
+                process.WaitForExit();
+
                 Logger.TraceData(TraceEventType.Stop | TraceEventType.Verbose, (int)TraceId.Cleartool, "Stop executing cleartool command", cmd);
                 if (_lastError != null)
                 {
@@ -269,14 +221,6 @@ namespace GitImporter
             while (!fullPath.StartsWith(toRemove))
                 toRemove = toRemove.Substring(toRemove.IndexOf('\\') + 1);
             return fullPath.Substring(toRemove.Length);
-        }
-
-        public void Dispose()
-        {
-            _inputWriter.WriteLine("quit");
-            _outputThread.Join();
-            _errorThread.Join();
-            _process.Close();
         }
     }
 }

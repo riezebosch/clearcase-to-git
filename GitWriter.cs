@@ -389,8 +389,8 @@ namespace GitImporter
         public void Dispose()
         {
             _writer.Dispose();
-            if (_cleartool != null)
-                _cleartool.Dispose();
+            //if (_cleartool != null)
+            //    _cleartool.Dispose();
         }
     }
 }

@@ -465,8 +465,8 @@ namespace GitImporter
 
         public void Dispose()
         {
-            foreach (var cleartool in _cleartools)
-                cleartool.Dispose();
+            //foreach (var cleartool in _cleartools)
+            //    cleartool.Dispose();
         }
     }
 }
