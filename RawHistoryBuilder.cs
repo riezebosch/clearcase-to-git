@@ -165,6 +165,8 @@ namespace GitImporter
                 // visible. nothing special here
                 normalizedName = RemoveDotRoot(name);
             }
+
+            return true;
             return null != RelativeRoots.Find(
                 r =>  {
                     Logger.TraceData(TraceEventType.Verbose, (int)TraceId.CreateChangeSet, "Comparing in raw", normalizedName, "vs", r);

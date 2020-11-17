@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitImporter", "GitImporter.csproj", "{ACF39711-85BD-4C8F-99F8-76463176BDFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitImporter.Tests", "GitImporter.Tests\GitImporter.Tests.csproj", "{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +23,19 @@ Global
 		{ACF39711-85BD-4C8F-99F8-76463176BDFD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ACF39711-85BD-4C8F-99F8-76463176BDFD}.Release|x86.ActiveCfg = Release|x86
 		{ACF39711-85BD-4C8F-99F8-76463176BDFD}.Release|x86.Build.0 = Release|x86
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Debug|x86.Build.0 = Debug|Any CPU
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Release|x86.ActiveCfg = Release|Any CPU
+		{A506DB4D-2CA0-4D8B-BDD3-0D9B9C74B759}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F02B20DC-1424-4E31-8223-170FAE3B3F33}
 	EndGlobalSection
 EndGlobal

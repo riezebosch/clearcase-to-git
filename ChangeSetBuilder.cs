@@ -108,14 +108,14 @@ namespace GitImporter
                 HashSet<string> elementNames;
                 if (!_elementsNames.TryGetValue(version.Element, out elementNames))
                 {
-                    if (_roots.Contains(version.Element.Name))
+                    //if (_roots.Contains(version.Element.Name))
                     {
                         elementNames = new HashSet<string> { version.Element.Name.Replace('\\', '/') };
                         _elementsNames.Add(version.Element, elementNames);
                     }
-                    else
+                    //else
                         // removed by one of the changes
-                        continue;
+                        //continue;
                 }
                 foreach (string baseName in elementNames)
                     UpdateChildNames(version, baseName + "/");

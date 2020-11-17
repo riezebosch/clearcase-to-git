@@ -1,0 +1,735 @@
+
+Â
+content-api\config\config.js(a76e8ede.edc0426b.8dce.4f:41:c3:4b:a7:b4"x
+Rmain:RRene van OsnabruggeRrenevanosnabrugge"†ãŞú0"†ãŞú2RMyLabel12RMyLabel2
+•
+5content-api\controllers\sessions.server.controller.js(b520f345.eda44783.b295.31:de:fd:05:c5:e2"6
+"ãŞú"ãŞú22"z
+Rdevelopment4
+,R(b520f345.eda44783.b295.31:de:fd:05:c5:e21RManuel Riezebosch	R
+riezebosch"¨ãßú
+–
+5content-api\controllers\speakers.server.controller.js(a6e7ece3.3c3c412b.acf8.bf:73:a9:a3:e5:90"
+"ãŞú"ãŞú^	"¬ïßú*
+
+Rmerge!22:4
+,R(a6e7ece3.3c3c412b.acf8.bf:73:a9:a3:e5:90"¡
+
+
+	"’æßúJ	"Œçßú*4R0nieuwe versie op branch zonder echte wijzigingen/	"Âéßú*R	wijzigingB
+
+
+”
+0content-api\controllers\app.server.controller.js(35d8f633.dee547b2.a251.08:e5:7a:33:9d:38"6
+"ãŞú"ãŞú22
+
+content-init\config\config.js(7320abfb.0b8a48d8.8792.1f:5b:4e:f9:c4:ad"6
+"ÔàŞú"ÔàŞú22
+ƒ
+content-init\json\speakers.json(a7f5d028.8fc14eec.a6bb.25:8c:61:29:c8:f1"6
+"ÊàŞú"ÊàŞú22
+–
+$content-init\models\session.model.js(fbe5f6b3.643b42df.a0d0.98:3b:b2:90:e9:0b"t
+"ºàŞú"ºàŞú"îéŞú."ºúŞú*RTest 2 files22"N
+4
+,R(fbe5f6b3.643b42df.a0d0.98:3b:b2:90:e9:0b"šèŞú
+ƒ
+content-init\json\sessions.json(2521e0a7.7c1d4388.b379.8c:e3:08:9b:09:f2"¸
+"ÈàŞú"ÈàŞú0"„ƒßú*Rcheck in file sessionsV	"–ïßú*
+22:4
+,R(2521e0a7.7c1d4388.b379.8c:e3:08:9b:09:f2"{
+
+
+"À€ßú3"Ğ…ßú*Raanpassing op Development "¸ˆßúB
+
+
+‡
+#content-api\models\session.model.js(005e0c1e.cff144d5.8c58.c8:35:20:9b:44:7c"6
+"˜ãŞú"˜ãŞú22
+~
+content-init\.dockerignore(55d33908.ba5f4ca2.a18c.a4:e6:5a:04:5b:8f"6
+"®àŞú"®àŞú22
+
++content-web\src\app\home\home.component.css(59015d19.a8f54802.9565.5f:f5:ad:78:ee:88"6
+"¢áŞú"¢áŞú22
+z
+content-init\server.js(0fccfeb1.600a497a.80e7.99:01:39:42:8e:1e"6
+"°àŞú"°àŞú22
+‚
+content-init\package-lock.json(a106b08b.f5554a13.b20c.d8:49:dc:dc:94:8a"6
+"®àŞú"®àŞú22
+}
+content-init\package.json(66731acd.68d5475d.8127.91:75:85:f0:1a:28"6
+"®àŞú"®àŞú22
+¹
+%content-init\models\speakers.model.js(1700a49a.ec304104.9136.d0:65:fa:14:d9:68"f
+"ºàŞú"ºàŞú"¨òŞú "ºúŞú*22
+ˆ
+$content-api\models\speakers.model.js(813ed29f.138d4368.b8ba.e7:c0:ce:db:16:9d"6
+"˜ãŞú"˜ãŞú22
+
+,content-web\src\app\home\home.component.html(eed85794.a02f4086.8f64.4d:50:73:28:25:83"6
+"¢áŞú"¢áŞú22
+
++content-web\src\app\models\session.model.ts(7630e62c.73ee4964.9040.bd:d2:19:81:b6:c7"6
+"²áŞú"²áŞú22
+“
+/content-web\src\app\home\home.component.spec.ts(28379c27.84dc4e7e.8fdc.a0:66:80:2e:b0:20"6
+"¤áŞú"¤áŞú22
+
+*content-web\src\app\home\home.component.ts(40f3190e.4e0b45f5.8819.e8:5b:6f:ee:44:4f"6
+"¤áŞú"¤áŞú22
+‡
+#content-web\e2e\src\app.e2e-spec.ts(361307c0.1597493e.b62e.83:51:06:df:29:d8"6
+"şàŞú"şàŞú22
+–
+2content-web\src\app\sessions\sessions.component.ts(2478619e.38f04261.803d.9c:54:ac:7f:26:32"6
+"êáŞú"êáŞú22
+
++content-web\src\app\models\speaker.model.ts(e0fe6757.c5cf4558.bca9.19:f5:a4:d6:a3:fc"6
+"´áŞú"´áŞú22
+›
+7content-web\src\app\sessions\sessions.component.spec.ts(acb14aaf.4e3e4bd8.be62.de:3e:ff:f1:2f:9b"6
+"êáŞú"êáŞú22
+
+content-web\e2e\src\app.po.ts(9ff15de3.350943b6.b4c3.30:1f:dc:8b:65:93"6
+"şàŞú"şàŞú22
+™
+5content-web\src\app\sessions\sessions.service.spec.ts(13e15116.30d149e5.bbba.38:7e:85:f2:ad:9b"6
+"ìáŞú"ìáŞú22
+
+)content-web\src\app\models\stats.model.ts(dbc6cc3c.107c448f.a9d8.ff:8e:d4:ba:28:e7"6
+"´áŞú"´áŞú22
+
+,content-web\src\app\models\settings.model.ts(0cf6a471.d9564937.980d.03:0c:37:58:cf:f5"6
+"´áŞú"´áŞú22
+˜
+4content-web\src\app\sessions\sessions.component.html(7af603f2.f4a7455a.b3d0.01:8a:20:d2:70:a8"6
+"êáŞú"êáŞú22
+—
+3content-web\src\app\speakers\speakers.component.css(bb2f134b.cb8449bd.b62e.94:bd:27:90:06:ce"6
+"ÔáŞú"ÔáŞú22
+—
+3content-web\src\app\sessions\sessions.component.css(8006c5bc.8b3e4b13.af8f.43:db:ee:17:dd:21"6
+"èáŞú"èáŞú22
+’
+.content-web\src\app\stats\stats.component.html(919379c7.fc1b44de.a477.f8:99:9d:07:67:d4"6
+"ÈáŞú"ÈáŞú22
+˜
+4content-web\src\app\speakers\speaker.service.spec.ts(bed604c2.8b744767.8463.b8:16:84:2d:9c:bd"6
+"ÔáŞú"ÔáŞú22
+“
+/content-web\src\app\stats\stats.service.spec.ts(4d1923d5.55e642eb.b1c8.8b:c7:59:36:bf:1f"6
+"ÊáŞú"ÊáŞú22
+–
+2content-web\src\app\speakers\speakers.component.ts(c599885b.732a4758.80b9.4e:d2:2a:46:38:06"6
+"ÖáŞú"ÖáŞú22
+”
+0content-web\src\app\sessions\sessions.service.ts(d9f86ae0.6ed448cc.87d6.8b:8c:c4:cb:4c:ce"6
+"ìáŞú"ìáŞú22
+‘
+-content-web\src\app\stats\stats.component.css(3c3d7a6d.d07a46eb.a728.41:4f:c5:92:d9:46"6
+"ÈáŞú"ÈáŞú22
+
+)content-web\src\app\app-routing.module.ts(89bbba21.b44b4cca.8718.bc:ef:e2:fd:5a:09"6
+"’áŞú"’áŞú22
+
+)content-web\src\app\app.component.spec.ts(de0adefa.9c644aa5.97e3.50:ee:76:da:17:43"6
+"’áŞú"’áŞú22
+“
+/content-web\src\app\speakers\speaker.service.ts(92b5eb0a.95f3434e.b43b.ce:39:eb:f7:60:57"6
+"ÔáŞú"ÔáŞú22
+
+,content-web\src\app\stats\stats.component.ts(3a890f03.8bf04cc8.8484.8e:25:5c:d6:51:fa"6
+"ÈáŞú"ÈáŞú22
+˜
+4content-web\src\app\speakers\speakers.component.html(99c90693.f310406c.93bc.3f:7f:02:fb:7a:f2"6
+"ÔáŞú"ÔáŞú22
+›
+7content-web\src\app\speakers\speakers.component.spec.ts(13407126.1f2047d1.995d.56:24:99:e6:b3:30"6
+"ÖáŞú"ÖáŞú22
+•
+1content-web\src\app\stats\stats.component.spec.ts(ae57e6a6.cb7145cc.9996.49:04:84:d1:b7:b7"6
+"ÈáŞú"ÈáŞú22
+ˆ
+$content-web\src\app\app.component.ts(e8beffd6.2ba74ba3.b7c9.cb:92:ba:57:dd:94"6
+"”áŞú"”áŞú22
+…
+!content-web\src\app\app.module.ts(cfcceebb.2c104871.b798.80:16:7d:3d:8a:f9"6
+"”áŞú"”áŞú22
+‰
+%content-web\src\app\app.component.css(a79745ee.6dce47b0.937c.05:2a:3d:80:c4:4d"6
+"’áŞú"’áŞú22
+Š
+&content-web\src\app\app.component.html(f893bcbc.cef24e39.a450.28:4e:81:3e:10:2b"6
+"’áŞú"’áŞú22
+†
+"content-web\src\app\app.service.ts(834fe1a5.948c4967.a087.b5:9a:78:fa:1e:1e"6
+"”áŞú"”áŞú22
+
++content-web\src\environments\environment.ts(bbd354fd.1c2f4afb.a95d.97:cc:8c:fb:70:00"6
+"‚âŞú"‚âŞú22
+’
+.content-web\src\assets\images\logo-contoso.png(2618fff4.c3ae4ce1.a691.ba:7d:c5:c6:b7:68"6
+"ÀâŞú"ÀâŞú22
+
+*content-web\src\app\stats\stats.service.ts(9c0fd05d.dabd494d.bc5c.31:9b:09:63:c1:72"6
+"ÊáŞú"ÊáŞú22
+‹
+'content-web\src\app\app.service.spec.ts(ed7df5e9.c88642ac.abd8.0b:58:d3:71:35:95"6
+"”áŞú"”áŞú22
+Š
+&content-web\src\app\window.provider.ts(ca6e537c.ca3c47fb.87b5.36:a0:f8:3b:e0:e3"6
+"–áŞú"–áŞú22
+
+,content-web\src\assets\stylesheets\style.css(69f64cdb.73964f89.8f41.7e:c1:3d:05:7a:b2"6
+"˜âŞú"˜âŞú22
+
+*content-web\src\assets\images\speaker3.jpg(2d2ecf93.013c4637.a9f8.42:9c:80:db:8d:09"6
+"ÀâŞú"ÀâŞú22
+”
+0content-web\src\environments\environment.prod.ts(07f76c04.f71d4c55.b1d8.10:55:3f:df:03:80"6
+"‚âŞú"‚âŞú22
+“
+/content-web\src\assets\images\bg-hero-skull.jpg(71f894bf.3adc4c93.a8a8.a8:28:29:61:00:89"6
+"¾âŞú"¾âŞú22
+
+*content-web\src\assets\images\speaker1.jpg(cdcc9136.596e4130.b99e.c5:20:fd:5e:e1:cb"6
+"ÀâŞú"ÀâŞú22
+
+*content-web\src\assets\stylesheets\app.css(3562b3c6.36b64ee9.8e33.08:d3:d7:04:2a:98"6
+"’âŞú"’âŞú22
+˜
+4content-web\src\assets\fonts\fontawesome-webfont.svg(71bf2920.d5f9412d.a674.dc:50:81:36:6f:f7"6
+"ĞâŞú"ĞâŞú22
+…
+7content-web\src\assets\stylesheets\font-awesome.min.css(f697216d.2d244a7a.a08f.b9:fd:5c:09:71:8a" 
+"’âŞú22
+”
+0content-web\src\assets\fonts\Entypo-webfont.woff(b95ab42d.a57f45a6.8360.76:c8:f0:b4:9c:57"6
+"ÎâŞú"ÎâŞú22
+Ÿ
+;content-web\src\assets\stylesheets\foundation\normalize.css(f636e03e.9d594ff2.b422.91:81:b1:ec:4a:7c"6
+"°âŞú"°âŞú22
+“
+/content-web\src\assets\fonts\Entypo-webfont.svg(59a6565c.90d34c69.b285.b6:ff:19:21:5c:fb"6
+"ÎâŞú"ÎâŞú22
+“
+/content-web\src\assets\fonts\Entypo-webfont.eot(afb0f216.73ce43c0.9a64.ab:7c:4d:40:0a:47"6
+"ÎâŞú"ÎâŞú22
+
+*content-web\src\assets\images\speaker2.jpg(45e5c4fd.57324ba8.b997.72:74:a7:03:b5:b9"6
+"ÀâŞú"ÀâŞú22
+˜
+4content-web\src\assets\fonts\fontawesome-webfont.ttf(e1f71cab.f7c84f07.893e.04:0a:8c:21:f7:65"6
+"ĞâŞú"ĞâŞú22
+}
+content-web\.editorconfig(57fd7338.28e141f0.b728.a5:9a:e5:3f:12:0a"6
+"¬ßŞú"¬ßŞú22
+¡
+=content-web\src\assets\fonts\general_enclosed_foundicons.woff(f0a72d19.a8ba43e2.a5f5.4e:68:d5:f8:37:33"6
+"ÔâŞú"ÔâŞú22
+}
+content-web\tsconfig.json(8b4530b8.d4c04c40.a670.ce:72:b3:da:dc:1c"6
+"°ßŞú"°ßŞú22
+ 
+<content-web\src\assets\fonts\general_enclosed_foundicons.ttf(5996b4a9.9ea04053.868b.4a:cd:b6:4c:dc:9b"6
+"ÔâŞú"ÔâŞú22
+™
+5content-web\src\assets\fonts\fontawesome-webfont.woff(35b01bc9.352d44cc.8dc1.79:3b:34:b2:59:9f"6
+"ÒâŞú"ÒâŞú22
+ 
+<content-web\src\assets\fonts\general_enclosed_foundicons.eot(0b3060ec.dcb54c23.bb49.bd:67:63:76:72:07"6
+"ÒâŞú"ÒâŞú22
+
+*content-web\src\assets\images\speaker4.jpg(7d030dff.abab4e53.812b.11:41:77:77:d7:67"6
+"ÀâŞú"ÀâŞú22
+“
+/content-web\src\assets\fonts\Entypo-webfont.ttf(ddebb268.47554461.9c07.cf:c2:b0:2b:e5:89"6
+"ÎâŞú"ÎâŞú22
+|
+content-web\angular.json(ac9aca3f.5f9e4009.9c7f.bd:69:a8:2a:a2:4c"6
+"¬ßŞú"¬ßŞú22
+
+)content-web\src\assets\images\favicon.ico(f77e0825.5e5e44b8.8025.95:ae:47:d1:cf:16"6
+"¾âŞú"¾âŞú22
+v
+content-web\app.js(2c64f088.e3cf4418.840b.40:1c:77:c2:f0:0b"6
+"¬ßŞú"¬ßŞú22
+}
+content-web\karma.conf.js(6550f635.f9cc42a8.8a62.d8:7c:58:14:09:7e"6
+"®ßŞú"®ßŞú22
+y
+content-web\README.md(def277bb.23fd4741.8764.35:74:61:d2:72:cd"6
+"°ßŞú"°ßŞú22
+|
+content-web\package.json(c9979148.15e342ce.b62b.32:07:58:28:a4:01"6
+"°ßŞú"°ßŞú22
+}
+content-web\.dockerignore(de74b34d.a6314ed6.8381.c5:94:e7:bb:a4:ff"6
+"¬ßŞú"¬ßŞú22
+˜
+4content-web\src\assets\fonts\fontawesome-webfont.eot(71b4dfb6.c5884bca.87aa.1d:b6:23:c9:4a:96"6
+"ĞâŞú"ĞâŞú22
+ 
+<content-web\src\assets\fonts\general_enclosed_foundicons.svg(c8aae2cc.65624255.bc32.e8:a3:15:67:6d:21"6
+"ÒâŞú"ÒâŞú22
+™
+CONTRIBUTING.md(afa9be25.3dd24c86.85fa.62:9f:48:8e:91:9d"\
+"¼ÔŞúB"¼ÔŞú*$R Initial Checkin of Code To Cloud22
+{
+content-web\tslint.json(a25920b5.42af408f.b6b8.c1:46:13:42:5d:e0"6
+"²ßŞú"²ßŞú22
+|
+content-web\browserslist(7ab2e3bd.1692429c.afd5.38:5e:ab:19:8f:32"6
+"®ßŞú"®ßŞú22
+‘
+	README.md(85e2dc76.9684444f.8699.5d:f0:fb:13:74:d0"Z
+"¾ÔŞú"¾ÔŞú*2"	"°‘“û*Rasdf2
+z
+content-web\.gitignore(46b60e61.d95548db.ba5e.99:69:a9:69:08:58"6
+"¬ßŞú"¬ßŞú22
+
+content-web\tsconfig.app.json(bb5e549d.1b2a4ac3.9a64.12:53:bb:c6:14:a5"6
+"°ßŞú"°ßŞú22
+
+content-web\package-lock.json(740d2d59.054f4b1c.a41e.1b:75:db:8e:74:50"6
+"®ßŞú"®ßŞú22
+o
+LICENSE(d273fb53.29864e53.bc5b.48:fa:49:1f:b9:d3":
+"¼ÔŞú "¼ÔŞú*22
+‚
+content-web\tsconfig.spec.json(a87123ef.f85848a1.aa15.ee:84:bd:ea:3b:72"6
+"°ßŞú"°ßŞú22
+á
+;M:\riezebosch_dynamic\CodeToCloud\content-web\src\app\stats(a3ecb798.ec794cd0.a3d7.0c:6c:79:08:62:8d"õ
+¢ "áŞú*R ¢ "áŞú*´¢‰
+?
+stats.component.css(3c3d7a6d.d07a46eb.a728.41:4f:c5:92:d9:46
+@
+stats.component.html(919379c7.fc1b44de.a477.f8:99:9d:07:67:d4
+C
+stats.component.spec.ts(ae57e6a6.cb7145cc.9996.49:04:84:d1:b7:b7
+>
+stats.component.ts(3a890f03.8bf04cc8.8484.8e:25:5c:d6:51:fa
+A
+stats.service.spec.ts(4d1923d5.55e642eb.b1c8.8b:c7:59:36:bf:1f
+<
+stats.service.ts(9c0fd05d.dabd494d.bc5c.31:9b:09:63:c1:72"ÊáŞú*ˆRƒAdded file element "stats.component.css".
+Added file element "stats.component.html".
+Added file element "stats.component.spec.ts".
+Added file element "stats.component.ts".
+Added file element "stats.service.spec.ts".
+Added file element "stats.service.ts".22
+Â
+OM:\riezebosch_dynamic\CodeToCloud\content-web\src\assets\stylesheets\foundation(e42dd5f7.e50b4937.b044.f3:0f:b6:3e:f9:92"Â
+¢ "’âŞú*¢ "’âŞú*ƒ¢;
+9
+normalize.css(f636e03e.9d594ff2.b422.91:81:b1:ec:4a:7c"°âŞú*'R#Added file element "normalize.css".22
+
+8M:\riezebosch_dynamic\CodeToCloud\content-web\src\assets(f483bfe5.d47c4099.97f0.56:5e:ea:6a:b5:26"´
+¢ "’âŞú*|¢9
+7
+stylesheets(394d9105.bd7c401c.9983.c5:59:b2:36:98:f5"šâŞú**R&Added directory element "stylesheets".«¢m
+2
+images(c808ed8f.14234295.80b3.a5:cc:3f:4f:f5:ed
+7
+stylesheets(394d9105.bd7c401c.9983.c5:59:b2:36:98:f5"ÂâŞú*%R!Added directory element "images".æ¢ 
+1
+fonts(f425e689.17d9400f.8d96.6e:68:2f:82:a2:ba
+2
+images(c808ed8f.14234295.80b3.a5:cc:3f:4f:f5:ed
+7
+stylesheets(394d9105.bd7c401c.9983.c5:59:b2:36:98:f5"ÔâŞú*$R Added directory element "fonts".22
+‚
+>M:\riezebosch_dynamic\CodeToCloud\content-web\src\environments(9b06fe32.e8a341d6.bd45.e8:40:dc:60:14:a7"“
+¢ "‚âŞú*ñ¢}
+?
+environment.prod.ts(07f76c04.f71d4c55.b1d8.10:55:3f:df:03:80
+:
+environment.ts(bbd354fd.1c2f4afb.a95d.97:cc:8c:fb:70:00"„âŞú*SROAdded file element "environment.prod.ts".
+Added file element "environment.ts".22
+è
+<M:\riezebosch_dynamic\CodeToCloud\content-web\src\app\models(733648c9.37184c44.a5a8.4d:37:a3:bb:d4:6f"û
+¢ "áŞú*¢ "áŞú*¼¢÷
+<
+session.model.ts(7630e62c.73ee4964.9040.bd:d2:19:81:b6:c7
+=
+settings.model.ts(0cf6a471.d9564937.980d.03:0c:37:58:cf:f5
+<
+speaker.model.ts(e0fe6757.c5cf4558.bca9.19:f5:a4:d6:a3:fc
+:
+stats.model.ts(dbc6cc3c.107c448f.a9d8.ff:8e:d4:ba:28:e7"´áŞú*¢RAdded file element "session.model.ts".
+Added file element "settings.model.ts".
+Added file element "speaker.model.ts".
+Added file element "stats.model.ts".22
+Å
+>M:\riezebosch_dynamic\CodeToCloud\content-web\src\assets\fonts(f425e689.17d9400f.8d96.6e:68:2f:82:a2:ba"Ö
+¢ "ÌâŞú*´¢Ë
+>
+Entypo-webfont.eot(afb0f216.73ce43c0.9a64.ab:7c:4d:40:0a:47
+>
+Entypo-webfont.svg(59a6565c.90d34c69.b285.b6:ff:19:21:5c:fb
+>
+Entypo-webfont.ttf(ddebb268.47554461.9c07.cf:c2:b0:2b:e5:89
+?
+Entypo-webfont.woff(b95ab42d.a57f45a6.8360.76:c8:f0:b4:9c:57
+C
+fontawesome-webfont.eot(71b4dfb6.c5884bca.87aa.1d:b6:23:c9:4a:96
+C
+fontawesome-webfont.svg(71bf2920.d5f9412d.a674.dc:50:81:36:6f:f7
+C
+fontawesome-webfont.ttf(e1f71cab.f7c84f07.893e.04:0a:8c:21:f7:65
+D
+fontawesome-webfont.woff(35b01bc9.352d44cc.8dc1.79:3b:34:b2:59:9f
+K
+general_enclosed_foundicons.eot(0b3060ec.dcb54c23.bb49.bd:67:63:76:72:07
+K
+general_enclosed_foundicons.svg(c8aae2cc.65624255.bc32.e8:a3:15:67:6d:21
+K
+general_enclosed_foundicons.ttf(5996b4a9.9ea04053.868b.4a:cd:b6:4c:dc:9b
+L
+ general_enclosed_foundicons.woff(f0a72d19.a8ba43e2.a5f5.4e:68:d5:f8:37:33"ÔâŞú*ÆRÁAdded file element "Entypo-webfont.eot".
+Added file element "Entypo-webfont.svg".
+Added file element "Entypo-webfont.ttf".
+Added file element "Entypo-webfont.woff".
+Added file element "fontawesome-webfont.eot".
+Added file element "fontawesome-webfont.svg".
+Added file element "fontawesome-webfont.ttf".
+Added file element "fontawesome-webfont.woff".
+Added file element "general_enclosed_foundicons.eot".
+Added file element "general_enclosed_foundicons.svg".
+Added file element "general_enclosed_foundicons.ttf".
+Added file element "general_enclosed_foundicons.woff".22
+Ú
+?M:\riezebosch_dynamic\CodeToCloud\content-web\src\assets\images(c808ed8f.14234295.80b3.a5:cc:3f:4f:f5:ed"ê
+¢ "¾âŞú*È¢
+=
+bg-hero-skull.jpg(71f894bf.3adc4c93.a8a8.a8:28:29:61:00:89
+7
+favicon.ico(f77e0825.5e5e44b8.8025.95:ae:47:d1:cf:16
+<
+logo-contoso.png(2618fff4.c3ae4ce1.a691.ba:7d:c5:c6:b7:68
+8
+speaker1.jpg(cdcc9136.596e4130.b99e.c5:20:fd:5e:e1:cb
+8
+speaker2.jpg(45e5c4fd.57324ba8.b997.72:74:a7:03:b5:b9
+8
+speaker3.jpg(2d2ecf93.013c4637.a9f8.42:9c:80:db:8d:09
+8
+speaker4.jpg(7d030dff.abab4e53.812b.11:41:77:77:d7:67"ÂâŞú*‡R‚Added file element "bg-hero-skull.jpg".
+Added file element "favicon.ico".
+Added file element "logo-contoso.png".
+Added file element "speaker1.jpg".
+Added file element "speaker2.jpg".
+Added file element "speaker3.jpg".
+Added file element "speaker4.jpg".22
+†
+>M:\riezebosch_dynamic\CodeToCloud\content-web\src\app\sessions(30a97700.5ecc4c0d.b2c2.c9:d4:52:0e:09:16"—
+¢ "áŞú*¢ "áŞú*Ø¢›
+B
+sessions.component.css(8006c5bc.8b3e4b13.af8f.43:db:ee:17:dd:21
+C
+sessions.component.html(7af603f2.f4a7455a.b3d0.01:8a:20:d2:70:a8
+F
+sessions.component.spec.ts(acb14aaf.4e3e4bd8.be62.de:3e:ff:f1:2f:9b
+A
+sessions.component.ts(2478619e.38f04261.803d.9c:54:ac:7f:26:32
+D
+sessions.service.spec.ts(13e15116.30d149e5.bbba.38:7e:85:f2:ad:9b
+?
+sessions.service.ts(d9f86ae0.6ed448cc.87d6.8b:8c:c4:cb:4c:ce"ìáŞú*šR•Added file element "sessions.component.css".
+Added file element "sessions.component.html".
+Added file element "sessions.component.spec.ts".
+Added file element "sessions.component.ts".
+Added file element "sessions.service.spec.ts".
+Added file element "sessions.service.ts".22
+¶
+DM:\riezebosch_dynamic\CodeToCloud\content-web\src\assets\stylesheets(394d9105.bd7c401c.9983.c5:59:b2:36:98:f5"Á
+¢ "’âŞú*Ÿ¢æ
+3
+app.css(3562b3c6.36b64ee9.8e33.08:d3:d7:04:2a:98
+@
+font-awesome.min.css(f697216d.2d244a7a.a08f.b9:fd:5c:09:71:8a
+6
+
+foundation(e42dd5f7.e50b4937.b044.f3:0f:b6:3e:f9:92
+5
+	style.css(69f64cdb.73964f89.8f41.7e:c1:3d:05:7a:b2"²äŞú*– R‘Added directory element "foundation".
+Added file element "app.css".
+Added file element "font-awesome.min.css".
+Added file element "style.css".22
+–
+5M:\riezebosch_dynamic\CodeToCloud\content-init\models(314a4696.d38b42f8.8e85.44:e3:0a:c3:06:b9"°
+¢ "®àŞú*¢ "®àŞú*ñ¢}
+<
+session.model.js(fbe5f6b3.643b42df.a0d0.98:3b:b2:90:e9:0b
+=
+speakers.model.js(1700a49a.ec304104.9136.d0:65:fa:14:d9:68"¼àŞú*S!ROAdded file element "session.model.js".
+Added file element "speakers.model.js".22
+€
+:M:\riezebosch_dynamic\CodeToCloud\content-web\src\app\home(f044bf05.c02b4b04.82bc.ea:50:13:96:2f:b7"•
+¢ "áŞú*¢ "áŞú*Ö¢„
+>
+home.component.css(59015d19.a8f54802.9565.5f:f5:ad:78:ee:88
+?
+home.component.html(eed85794.a02f4086.8f64.4d:50:73:28:25:83
+B
+home.component.spec.ts(28379c27.84dc4e7e.8fdc.a0:66:80:2e:b0:20
+=
+home.component.ts(40f3190e.4e0b45f5.8819.e8:5b:6f:ee:44:4f"¤áŞú*¯"RªAdded file element "home.component.css".
+Added file element "home.component.html".
+Added file element "home.component.spec.ts".
+Added file element "home.component.ts".22
+”
+1M:\riezebosch_dynamic\CodeToCloud\content-web\e2e(7b16762c.0986423c.864b.15:71:25:04:3e:3f"²
+¢ "ªßŞú*¢ "ªßŞú*t¢1
+/
+src(132aae16.6813499e.b8ac.76:70:45:19:2d:d7"şàŞú*"#RAdded directory element "src".22
+Ÿ
+5M:\riezebosch_dynamic\CodeToCloud\content-init\config(6885c9d3.bfd34945.9ceb.5b:b6:af:68:94:c3"¹
+¢ "®àŞú*¢ "®àŞú*{¢7
+5
+	config.js(7320abfb.0b8a48d8.8792.1f:5b:4e:f9:c4:ad"ÖàŞú*#$RAdded file element "config.js".22
+“
+5M:\riezebosch_dynamic\CodeToCloud\content-web\src\app(88925abc.48474a97.b2b3.fc:bc:68:d7:29:39"­
+¢ "áŞú*‹¢À
+A
+app-routing.module.ts(89bbba21.b44b4cca.8718.bc:ef:e2:fd:5a:09
+=
+app.component.css(a79745ee.6dce47b0.937c.05:2a:3d:80:c4:4d
+>
+app.component.html(f893bcbc.cef24e39.a450.28:4e:81:3e:10:2b
+A
+app.component.spec.ts(de0adefa.9c644aa5.97e3.50:ee:76:da:17:43
+<
+app.component.ts(e8beffd6.2ba74ba3.b7c9.cb:92:ba:57:dd:94
+9
+app.module.ts(cfcceebb.2c104871.b798.80:16:7d:3d:8a:f9
+?
+app.service.spec.ts(ed7df5e9.c88642ac.abd8.0b:58:d3:71:35:95
+:
+app.service.ts(834fe1a5.948c4967.a087.b5:9a:78:fa:1e:1e
+0
+home(f044bf05.c02b4b04.82bc.ea:50:13:96:2f:b7
+2
+models(733648c9.37184c44.a5a8.4d:37:a3:bb:d4:6f
+4
+sessions(30a97700.5ecc4c0d.b2c2.c9:d4:52:0e:09:16
+4
+speakers(135e53a0.be324563.a68b.f2:19:1c:9f:15:0c
+1
+stats(a3ecb798.ec794cd0.a3d7.0c:6c:79:08:62:8d
+>
+window.provider.ts(ca6e537c.ca3c47fb.87b5.36:a0:f8:3b:e0:e3"–áŞú*¨%R£Added directory element "home".
+Added directory element "models".
+Added directory element "sessions".
+Added directory element "speakers".
+Added directory element "stats".
+Added file element "app-routing.module.ts".
+Added file element "app.component.css".
+Added file element "app.component.html".
+Added file element "app.component.spec.ts".
+Added file element "app.component.ts".
+Added file element "app.module.ts".
+Added file element "app.service.spec.ts".
+Added file element "app.service.ts".
+Added file element "window.provider.ts".22
+§
+1M:\riezebosch_dynamic\CodeToCloud\content-web\src(8fc73eca.fb9c4eb0.9dd7.5c:0a:c6:03:f5:fe"Å
+¢ "ªßŞú*¢ "ªßŞú*l¢1
+/
+app(88925abc.48474a97.b2b3.fc:bc:68:d7:29:39"–áŞú*"&RAdded directory element "app".¯¢k
+/
+app(88925abc.48474a97.b2b3.fc:bc:68:d7:29:39
+8
+environments(9b06fe32.e8a341d6.bd45.e8:40:dc:60:14:a7"„âŞú*+'R'Added directory element "environments".æ¢Ÿ
+/
+app(88925abc.48474a97.b2b3.fc:bc:68:d7:29:39
+2
+assets(f483bfe5.d47c4099.97f0.56:5e:ea:6a:b5:26
+8
+environments(9b06fe32.e8a341d6.bd45.e8:40:dc:60:14:a7"šâŞú*%(R!Added directory element "assets".22
+Ã
+.M:\riezebosch_dynamic\CodeToCloud\content-init(ca35b090.147b42c4.b85c.fe:ca:fb:ab:5a:b3"ä
+¢ "¼ÔŞú*¢ "¼ÔŞú*¥¢…
+9
+.dockerignore(55d33908.ba5f4ca2.a18c.a4:e6:5a:04:5b:8f
+2
+config(6885c9d3.bfd34945.9ceb.5b:b6:af:68:94:c3
+0
+json(2b208ec0.16ee4736.8975.d5:7b:d0:fd:62:a4
+2
+models(314a4696.d38b42f8.8e85.44:e3:0a:c3:06:b9
+=
+package-lock.json(a106b08b.f5554a13.b20c.d8:49:dc:dc:94:8a
+8
+package.json(66731acd.68d5475d.8127.91:75:85:f0:1a:28
+5
+	server.js(0fccfeb1.600a497a.80e7.99:01:39:42:8e:1e"°àŞú*ı)RøAdded directory element "config".
+Added directory element "json".
+Added directory element "models".
+Added file element ".dockerignore".
+Added file element "package-lock.json".
+Added file element "package.json".
+Added file element "server.js".22
+‚
+>M:\riezebosch_dynamic\CodeToCloud\content-web\src\app\speakers(135e53a0.be324563.a68b.f2:19:1c:9f:15:0c"“
+¢ "áŞú*¢ "áŞú*Ô¢™
+C
+speaker.service.spec.ts(bed604c2.8b744767.8463.b8:16:84:2d:9c:bd
+>
+speaker.service.ts(92b5eb0a.95f3434e.b43b.ce:39:eb:f7:60:57
+B
+speakers.component.css(bb2f134b.cb8449bd.b62e.94:bd:27:90:06:ce
+C
+speakers.component.html(99c90693.f310406c.93bc.3f:7f:02:fb:7a:f2
+F
+speakers.component.spec.ts(13407126.1f2047d1.995d.56:24:99:e6:b3:30
+A
+speakers.component.ts(c599885b.732a4758.80b9.4e:d2:2a:46:38:06"ÖáŞú*˜*R“Added file element "speaker.service.spec.ts".
+Added file element "speaker.service.ts".
+Added file element "speakers.component.css".
+Added file element "speakers.component.html".
+Added file element "speakers.component.spec.ts".
+Added file element "speakers.component.ts".22
+ç
+5M:\riezebosch_dynamic\CodeToCloud\content-web\e2e\src(132aae16.6813499e.b8ac.76:70:45:19:2d:d7"
+¢ "şàŞú*ß¢t
+;
+app.e2e-spec.ts(361307c0.1597493e.b62e.83:51:06:df:29:d8
+5
+	app.po.ts(9ff15de3.350943b6.b4c3.30:1f:dc:8b:65:93"şàŞú*J+RFAdded file element "app.e2e-spec.ts".
+Added file element "app.po.ts".22
+†
+3M:\riezebosch_dynamic\CodeToCloud\content-init\json(2b208ec0.16ee4736.8975.d5:7b:d0:fd:62:a4"¢
+¢ "®àŞú*¢ "®àŞú*ã¢v
+9
+sessions.json(2521e0a7.7c1d4388.b379.8c:e3:08:9b:09:f2
+9
+speakers.json(a7f5d028.8fc14eec.a6bb.25:8c:61:29:c8:f1"ÊàŞú*L,RHAdded file element "sessions.json".
+Added file element "speakers.json".22
+™
+-M:\riezebosch_dynamic\CodeToCloud\content-web(c1cbbca1.9ae94d08.a76d.f6:b3:e6:07:4c:6d"»
+¢ "¼ÔŞú*¢ "¼ÔŞú*ü¢–
+9
+.dockerignore(de74b34d.a6314ed6.8381.c5:94:e7:bb:a4:ff
+9
+.editorconfig(57fd7338.28e141f0.b728.a5:9a:e5:3f:12:0a
+6
+
+.gitignore(46b60e61.d95548db.ba5e.99:69:a9:69:08:58
+8
+angular.json(ac9aca3f.5f9e4009.9c7f.bd:69:a8:2a:a2:4c
+2
+app.js(2c64f088.e3cf4418.840b.40:1c:77:c2:f0:0b
+8
+browserslist(7ab2e3bd.1692429c.afd5.38:5e:ab:19:8f:32
+/
+e2e(7b16762c.0986423c.864b.15:71:25:04:3e:3f
+9
+karma.conf.js(6550f635.f9cc42a8.8a62.d8:7c:58:14:09:7e
+=
+package-lock.json(740d2d59.054f4b1c.a41e.1b:75:db:8e:74:50
+8
+package.json(c9979148.15e342ce.b62b.32:07:58:28:a4:01
+5
+	README.md(def277bb.23fd4741.8764.35:74:61:d2:72:cd
+/
+src(8fc73eca.fb9c4eb0.9dd7.5c:0a:c6:03:f5:fe
+=
+tsconfig.app.json(bb5e549d.1b2a4ac3.9a64.12:53:bb:c6:14:a5
+9
+tsconfig.json(8b4530b8.d4c04c40.a670.ce:72:b3:da:dc:1c
+>
+tsconfig.spec.json(a87123ef.f85848a1.aa15.ee:84:bd:ea:3b:72
+7
+tslint.json(a25920b5.42af408f.b6b8.c1:46:13:42:5d:e0"²ßŞú*Ã-R¾Added directory element "e2e".
+Added directory element "src".
+Added file element ".dockerignore".
+Added file element ".editorconfig".
+Added file element ".gitignore".
+Added file element "angular.json".
+Added file element "app.js".
+Added file element "browserslist".
+Added file element "karma.conf.js".
+Added file element "package-lock.json".
+Added file element "package.json".
+Added file element "README.md".
+Added file element "tsconfig.app.json".
+Added file element "tsconfig.json".
+Added file element "tsconfig.spec.json".
+Added file element "tslint.json".22
+§
+4M:\riezebosch_dynamic\CodeToCloud\content-api\models(09af0436.b49e4c28.99e2.2e:a8:92:17:aa:d4"Â
+¢ "˜ãŞú* ¢}
+<
+session.model.js(005e0c1e.cff144d5.8c58.c8:35:20:9b:44:7c
+=
+speakers.model.js(813ed29f.138d4368.b8ba.e7:c0:ce:db:16:9d"šãŞú*!22
+¬
+-M:\riezebosch_dynamic\CodeToCloud\content-api(49eec8f7.053a421b.8afc.15:df:b3:19:49:da"Î
+¢ "¶ÔŞú*¢ "¶ÔŞú*r¢4
+2
+config(747b57db.410c4678.8923.96:ff:29:f0:80:6d"†ãŞú*%.R!Added directory element "config".°¢m
+2
+config(747b57db.410c4678.8923.96:ff:29:f0:80:6d
+7
+controllers(a765573f.e1ee4cc0.bc3f.12:ec:29:28:5e:75"ãŞú**/R&Added directory element "controllers".è¢¡
+2
+config(747b57db.410c4678.8923.96:ff:29:f0:80:6d
+7
+controllers(a765573f.e1ee4cc0.bc3f.12:ec:29:28:5e:75
+2
+models(09af0436.b49e4c28.99e2.2e:a8:92:17:aa:d4"˜ãŞú*%0R!Added directory element "models".22
+ß
+4M:\riezebosch_dynamic\CodeToCloud\content-api\config(747b57db.410c4678.8923.96:ff:29:f0:80:6d"{
+¢ "†ãŞú*Z¢7
+5
+	config.js(a76e8ede.edc0426b.8dce.4f:41:c3:4b:a7:b4"†ãŞú*$22
+¨
+9M:\riezebosch_dynamic\CodeToCloud\content-api\controllers(a765573f.e1ee4cc0.bc3f.12:ec:29:28:5e:75"¾
+¢ "ãŞú*œ¢Ü
+D
+app.server.controller.js(35d8f633.dee547b2.a251.08:e5:7a:33:9d:38
+I
+sessions.server.controller.js(b520f345.eda44783.b295.31:de:fd:05:c5:e2
+I
+speakers.server.controller.js(a6e7ece3.3c3c412b.acf8.bf:73:a9:a3:e5:90"ãŞú*1R˜Added file element "app.server.controller.js".
+Added file element "sessions.server.controller.js".
+Added file element "speakers.server.controller.js".22
+ó
+#M:\riezebosch_dynamic\CodeToCloud\.(1605deb2.9cab4b6a.aa01.56:8c:09:c9:4f:75"Ÿ
+¢ "ŞÒŞú*ı¢Õ
+7
+content-api(49eec8f7.053a421b.8afc.15:df:b3:19:49:da
+8
+content-init(ca35b090.147b42c4.b85c.fe:ca:fb:ab:5a:b3
+7
+content-web(c1cbbca1.9ae94d08.a76d.f6:b3:e6:07:4c:6d
+;
+CONTRIBUTING.md(afa9be25.3dd24c86.85fa.62:9f:48:8e:91:9d
+3
+LICENSE(d273fb53.29864e53.bc5b.48:fa:49:1f:b9:d3
+5
+	README.md(85e2dc76.9684444f.8699.5d:f0:fb:13:74:d0"¾ÔŞú*…2R€Initial Checkin of Code To Cloud
+Added directory element "content-api".
+Added directory element "content-init".
+Added directory element "content-web".
+Added file element "CONTRIBUTING.md".
+Added file element "LICENSE".
+Added file element "README.md".22H
+BACKSTOP<
+BACKSTOPRene van Osnabruggerenevanosnabrugge"ŞÒŞúD
+LATEST:
+LATESTRene van Osnabruggerenevanosnabrugge"ŞÒŞú?
+MyLabel23
+MyLabel2Manuel Riezebosch
+riezebosch"Ö‘“ûL
+
+CHECKEDOUT>
+
+CHECKEDOUTRene van Osnabruggerenevanosnabrugge"ŞÒŞú?
+MyLabel13
+MyLabel1Manuel Riezebosch
+riezebosch"è‰“û
